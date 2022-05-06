@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node .node_modules/jest/bin/jest",
     "linter": "node ./node_modules/eslint/bin/eslint.js .",
-    "linter-fix": "--fix"
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,6 @@
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.2.0",
-    "eslint-plugin-promise": "^6.0.0",
-    "jest": "^28.0.3"
+    "eslint-plugin-promise": "^6.0.0"
   }
 }
