@@ -1,4 +1,4 @@
-const FizzBuzzServices = require("./../lib/services/FizzBuzzService");
+const FizzBuzzServices = require("../../lib/services/FizzBuzzService");
 const FizzBuzzService = new FizzBuzzServices;
 describe("Testing FizzBuzz Service", () => {
     test("1) apply validation in explorer 1", () => {

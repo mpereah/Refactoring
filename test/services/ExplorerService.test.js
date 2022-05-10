@@ -1,6 +1,6 @@
-const Reader = require("./../lib/utils/Reader");
+const Reader = require("../../lib/utils/Reader");
 const explorers = new Reader;
-const ExplorerService = require("./../lib/services/ExplorerService");
+const ExplorerService = require("../../lib/services/ExplorerService");
 const XService = new ExplorerService;
 describe("Testing class Explorer Service", () => {
     test("1) Filter by Mission", () => {

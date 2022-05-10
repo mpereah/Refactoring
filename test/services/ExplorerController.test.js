@@ -1,4 +1,4 @@
-const ExplorerController = require("./../lib/controllers/ExplorerController");
+const ExplorerController = require("../../lib/controllers/ExplorerController");
 let XController = new ExplorerController;
 describe("Testing ExplorerController class", () => {
     test("1) get explorers by mission", () => {
